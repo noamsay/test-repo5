@@ -2,8 +2,10 @@
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: submarine.png
+img: immobilier.png
 alt: image-alt
+article: '"Les étapes clés pour ouvrir une agence immobilière"'
+pdf: https://drive.google.com/file/d/18GabAK_T27_IFaEVoiqi_3t_RQN6FOnD/preview
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development

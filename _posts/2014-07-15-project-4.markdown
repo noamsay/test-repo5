@@ -2,7 +2,9 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: game.png
+img: collocation.png
+pdf: https://drive.google.com/file/d/1U0HDdX0XsMPoKDd1SyDuZe0yk-QYqF9w/preview
+article: '"De multiples raisons d’investir dans la colocation"'
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

@@ -22,7 +22,8 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    /*color: #18bc9c;*/
+    color: #fcd670;
 }
 
 h1,
@@ -83,6 +84,10 @@ header {
     text-align: center;
     color: #fff;
     background: #18bc9c;
+    background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("../img/helenasay-header.jpg") !important;
+    /*background-image: linear-gradient(-225deg, rgba(148,128,0,0.6), rgba(148,128,0,0.6) 50%), url(../img/helenasay-header.jpg) !important;*/
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header .container {
@@ -101,6 +106,7 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    padding-top: 250px; /* added */
 }
 
 header .intro-text .skills {
@@ -111,11 +117,12 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 100px;
+        padding-bottom: 200px; /*updated from 100*/
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3em;   /* updated from 4.75 */
+        padding-top: 250px; /* added */
     }
 
     header .intro-text .skills {
@@ -136,6 +143,11 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        color: #2c3e50;
+    }
+
+    .navbar-fixed-top .navbar-brand:hover {
+      color: #fcd670;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -165,10 +177,25 @@ header .intro-text .skills {
     outline: 0;
 }
 
+.navbar-default {
+  background-color: #f6f6f6;
+  /*background-color: transparent;*/
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
 }
+
+/*--ADDED--*/
+.navbar-default .navbar-nav>li>a {
+    color: #2c3e50;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fcd670;
+}
+/*--------*/
 
 section {
     padding: 100px 0;
@@ -211,7 +238,8 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    /*background: rgba(24,188,156,.9);*/ /*green*/
+    background: rgba(0,101,168,0.7); /*blue*/
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -243,6 +271,18 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.article-title {
+  font-style: italic;
+  padding: 20px;
 }
 
 @media(min-width:767px) {

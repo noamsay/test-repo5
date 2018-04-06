@@ -2,7 +2,9 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: bali.png
+pdf: https://drive.google.com/file/d/112Iys3bfN-o8DSS2sVvfvdyQtD5jCHYH/preview
+article: '"Bali, la destination de rêve pour les lunes de miel"'
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
