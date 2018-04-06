@@ -2,9 +2,7 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: sas.png
-pdf: https://drive.google.com/file/d/1qyGbRNAoUVAAL1cSCuR9wQCzJ1CMZIzP/preview
-article: '"Créer une SAS, pourquoi choisir ce statut ?"'
+img: circus.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

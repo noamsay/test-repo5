@@ -2,9 +2,7 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: doudou-bebe.png
-pdf: https://drive.google.com/file/d/1MuehPYBzTdyW6_6REIMunXU40vjx7MHr/preview
-article: '"Les doudous de bebe"'
+img: cake.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
